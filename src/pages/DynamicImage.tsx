@@ -13,7 +13,7 @@ const DynamicImage: React.FC = () => {
       </IonHeader>
       <IonContent fullscreen>
         <IonGrid>
-          <IonRow><IonCol>Hello<Square /></IonCol></IonRow>
+          <IonRow><IonCol><Square /></IonCol></IonRow>
         </IonGrid>
       </IonContent>
     </IonPage>

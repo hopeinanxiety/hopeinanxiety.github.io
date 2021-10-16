@@ -5,8 +5,7 @@ interface ContainerProps { }
 const Square: React.FC<ContainerProps> = () => {
   return (
       
-    <div >
-      <p>hello</p>  
+    <div > 
       <strong>Square</strong>
       <div className="square"></div>
       
