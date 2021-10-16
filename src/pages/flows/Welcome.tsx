@@ -3,7 +3,6 @@ import WelcomeBanner from '../../components/home/WelcomeBanner';
 import InspirationLink from '../../components/inspiration/InspirationLink';
 import InformationLink from '../../components/information/InformationLink';
 import InterventionLink from '../../components/intervention/InterventionLink';
-import './Welcome.css';
 
 const Welcome: React.FC = () => {
   return (
@@ -13,12 +12,12 @@ const Welcome: React.FC = () => {
           <IonTitle>Welcome</IonTitle>
         </IonToolbar>
       </IonHeader>
-      <IonContent fullscreen>
-        <IonGrid>
-          <IonRow><IonCol><WelcomeBanner /></IonCol></IonRow>
-          <IonRow><IonCol><InspirationLink /></IonCol></IonRow>
-          <IonRow><IonCol><InformationLink /></IonCol></IonRow>
-          <IonRow><IonCol><InterventionLink /></IonCol></IonRow>
+      <IonContent className="background" fullscreen>
+        <IonGrid className="height100">
+          <IonRow className="height25"><IonCol><WelcomeBanner /></IonCol></IonRow>
+          <IonRow className="height25"><IonCol><InspirationLink /></IonCol></IonRow>
+          <IonRow className="height25"><IonCol><InformationLink /></IonCol></IonRow>
+          <IonRow className="height25"><IonCol><InterventionLink /></IonCol></IonRow>
         </IonGrid>
       </IonContent>
     </IonPage>
