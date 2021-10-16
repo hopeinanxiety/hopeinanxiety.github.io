@@ -1,16 +1,16 @@
 import { IonCol, IonContent, IonGrid, IonHeader, IonPage, IonRow, IonTitle, IonToolbar } from '@ionic/react';
-import WelcomeBanner from '../components/WelcomeBanner';
-import InspirationLink from '../components/inspiration/InspirationLink';
-import InformationLink from '../components/information/InformationLink';
-import InterventionLink from '../components/intervention/InterventionLink';
-import './Home.css';
+import WelcomeBanner from '../../components/home/WelcomeBanner';
+import InspirationLink from '../../components/inspiration/InspirationLink';
+import InformationLink from '../../components/information/InformationLink';
+import InterventionLink from '../../components/intervention/InterventionLink';
+import './Anxiety.css';
 
-const Home: React.FC = () => {
+const Anxiety: React.FC = () => {
   return (
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle>Home</IonTitle>
+          <IonTitle>Anxiety</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
@@ -25,4 +25,4 @@ const Home: React.FC = () => {
   );
 };
 
-export default Home;
+export default Anxiety;

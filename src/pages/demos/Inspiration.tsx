@@ -1,8 +1,8 @@
 import { IonCol, IonContent, IonGrid, IonHeader, IonPage, IonRow, IonTitle, IonToolbar } from '@ionic/react';
-import Ephesians1 from '../components/inspiration/Ephesians1';
-import GodIs from '../components/inspiration/GodIs';
-import WhenLifeHurts from '../components/inspiration/WhenLifeHurts';
-import InterventionLink from '../components/intervention/InterventionLink';
+import Ephesians1 from '../../components/inspiration/Ephesians1';
+import GodIs from '../../components/inspiration/GodIs';
+import WhenLifeHurts from '../../components/inspiration/WhenLifeHurts';
+import InterventionLink from '../../components/intervention/InterventionLink';
 import './Inspiration.css';
 
 const Inspiration: React.FC = () => {

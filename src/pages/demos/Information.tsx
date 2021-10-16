@@ -1,5 +1,5 @@
 import { IonCol, IonContent, IonGrid, IonHeader, IonPage, IonRow, IonTitle, IonToolbar } from '@ionic/react';
-import InterventionLink from '../components/intervention/InterventionLink';
+import InterventionLink from '../../components/intervention/InterventionLink';
 import './Information.css';
 
 const Information: React.FC = () => {
