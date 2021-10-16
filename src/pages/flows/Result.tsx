@@ -1,8 +1,8 @@
 import { IonCol, IonContent, IonGrid, IonHeader, IonPage, IonRow, IonTitle, IonToolbar } from '@ionic/react';
-import WelcomeBanner from '../../components/home/WelcomeBanner';
-import InspirationLink from '../../components/inspiration/InspirationLink';
-import InformationLink from '../../components/information/InformationLink';
-import InterventionLink from '../../components/intervention/InterventionLink';
+import ResultBanner from '../../components/flows/ResultBanner';
+import ResultQuote from '../../components/flows/ResultQuote';
+import ResultCopy from '../../components/flows/ResultCopy';
+import ResultPrayer from '../../components/flows/ResultPrayer';
 
 const Result: React.FC = () => {
   return (
@@ -14,10 +14,10 @@ const Result: React.FC = () => {
       </IonHeader>
       <IonContent className="blur-background" fullscreen>
         <IonGrid className="height100">
-          <IonRow className="height25"><IonCol><WelcomeBanner /></IonCol></IonRow>
-          <IonRow className="height25"><IonCol><InspirationLink /></IonCol></IonRow>
-          <IonRow className="height25"><IonCol><InformationLink /></IonCol></IonRow>
-          <IonRow className="height25"><IonCol><InterventionLink /></IonCol></IonRow>
+          <IonRow className="height25"><IonCol><ResultBanner /></IonCol></IonRow>
+          <IonRow className="height25"><IonCol><ResultQuote /></IonCol></IonRow>
+          <IonRow className="height25"><IonCol><ResultCopy /></IonCol></IonRow>
+          <IonRow className="height25"><IonCol><ResultPrayer /></IonCol></IonRow>
         </IonGrid>
       </IonContent>
     </IonPage>
