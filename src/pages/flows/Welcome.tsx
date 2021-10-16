@@ -12,7 +12,7 @@ const Welcome: React.FC = () => {
           <IonTitle>Welcome</IonTitle>
         </IonToolbar>
       </IonHeader>
-      <IonContent fullscreen>
+      <IonContent className="background" fullscreen>
         <IonGrid className="height100">
           <IonRow className="height25"><IonCol><WelcomeBanner /></IonCol></IonRow>
           <IonRow className="height25"><IonCol><InspirationLink /></IonCol></IonRow>

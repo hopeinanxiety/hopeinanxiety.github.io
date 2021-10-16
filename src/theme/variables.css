@@ -242,3 +242,13 @@ http://ionicframework.com/docs/theming/ */
 .height100 {
   height: 100%;
 }
+
+.background {
+  --background: url("background.jpg") 0 0/100% 100% no-repeat;
+  background-size: cover;
+}
+
+.blur-background {
+  --background: url("blur-background.png") 0 0/100% 100% no-repeat;
+  background-size: cover;
+}

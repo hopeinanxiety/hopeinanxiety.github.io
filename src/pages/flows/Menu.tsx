@@ -12,7 +12,7 @@ const Menu: React.FC = () => {
           <IonTitle>Menu</IonTitle>
         </IonToolbar>
       </IonHeader>
-      <IonContent fullscreen>
+      <IonContent className="blur-background" fullscreen>
         <IonGrid className="height100">
           <IonRow className="height25"><IonCol><WelcomeBanner /></IonCol></IonRow>
           <IonRow className="height25"><IonCol><InspirationLink /></IonCol></IonRow>
