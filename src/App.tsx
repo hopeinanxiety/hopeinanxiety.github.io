@@ -42,7 +42,7 @@ const App: React.FC = () => (
         <Route exact path="/hope">
           <Inspiration />
         </Route>
-        <Route exact path="/DynamicImage">
+        <Route exact path="/dynamic-image">
           <DynamicImage />
         </Route>           
         <Route exact path="/">
