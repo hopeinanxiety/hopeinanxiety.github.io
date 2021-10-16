@@ -1,8 +1,8 @@
 import { IonCol, IonContent, IonGrid, IonHeader, IonPage, IonRow, IonTitle, IonToolbar } from '@ionic/react';
 import WelcomeBanner from '../../components/home/WelcomeBanner';
-import InspirationLink from '../../components/inspiration/InspirationLink';
-import InformationLink from '../../components/information/InformationLink';
-import InterventionLink from '../../components/intervention/InterventionLink';
+import StartDay from '../../components/flows/StartDay';
+import Gratitude from '../../components/flows/Gratitude';
+import Anxiety from '../../components/flows/Anxiety';
 
 const Menu: React.FC = () => {
   return (
@@ -15,9 +15,9 @@ const Menu: React.FC = () => {
       <IonContent className="blur-background" fullscreen>
         <IonGrid className="height100">
           <IonRow className="height25"><IonCol><WelcomeBanner /></IonCol></IonRow>
-          <IonRow className="height25"><IonCol><InspirationLink /></IonCol></IonRow>
-          <IonRow className="height25"><IonCol><InformationLink /></IonCol></IonRow>
-          <IonRow className="height25"><IonCol><InterventionLink /></IonCol></IonRow>
+          <IonRow className="height25"><IonCol><StartDay /></IonCol></IonRow>
+          <IonRow className="height25"><IonCol><Gratitude /></IonCol></IonRow>
+          <IonRow className="height25"><IonCol><Anxiety /></IonCol></IonRow>
         </IonGrid>
       </IonContent>
     </IonPage>
