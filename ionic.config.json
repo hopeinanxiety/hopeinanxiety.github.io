@@ -1,0 +1,7 @@
+{
+  "name": "hope-in-anxiety-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

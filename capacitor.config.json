@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "hope-in-anxiety-app",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}
