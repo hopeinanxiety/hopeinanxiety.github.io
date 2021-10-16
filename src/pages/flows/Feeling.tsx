@@ -10,7 +10,7 @@ const Feeling: React.FC = () => {
           <IonTitle>Feeling</IonTitle>
         </IonToolbar>
       </IonHeader>
-      <IonContent fullscreen>
+      <IonContent className="blur-background" fullscreen>
         <IonGrid className="height100">
           <IonRow className="height25"><IonCol><MeditationBanner /></IonCol></IonRow>
           <IonRow className="height75"><IonCol><MeditationPhotos /></IonCol></IonRow>

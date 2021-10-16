@@ -12,7 +12,7 @@ const Result: React.FC = () => {
           <IonTitle>Result</IonTitle>
         </IonToolbar>
       </IonHeader>
-      <IonContent className="blur-background" fullscreen>
+      <IonContent fullscreen>
         <IonGrid className="height100">
           <IonRow className="height25"><IonCol><ResultBanner /></IonCol></IonRow>
           <IonRow className="height25"><IonCol><ResultQuote /></IonCol></IonRow>
