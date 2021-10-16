@@ -239,6 +239,11 @@ http://ionicframework.com/docs/theming/ */
   height: 25%;
 }
 
+.height25yellow {
+  height: 25%;
+  color:yellow;
+}
+
 .height100 {
   height: 100%;
 }
