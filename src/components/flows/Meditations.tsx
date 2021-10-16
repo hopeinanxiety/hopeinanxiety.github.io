@@ -6,7 +6,7 @@ interface ContainerProps { }
 const Meditations: React.FC<ContainerProps> = () => {
   return (
     <div className="container">
-      <IonButton href="/feeling">Verse Meditations</IonButton>
+      <IonButton fill="clear" href="/feeling">Verse Meditations</IonButton>
     </div>
   );
 };

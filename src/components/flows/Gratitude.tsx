@@ -6,7 +6,7 @@ interface ContainerProps { }
 const Gratitude: React.FC<ContainerProps> = () => {
   return (
     <div className="container">
-      <IonButton>Develop gratitude</IonButton>
+      <IonButton fill="clear">Develop gratitude</IonButton>
     </div>
   );
 };

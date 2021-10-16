@@ -6,7 +6,7 @@ interface ContainerProps { }
 const StartDay: React.FC<ContainerProps> = () => {
   return (
     <div className="container">
-      <IonButton>Start my day well</IonButton>
+      <IonButton fill="clear">Start my day well</IonButton>
     </div>
   );
 };
