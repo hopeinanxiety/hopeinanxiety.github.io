@@ -1,7 +1,6 @@
 import { CreateAnimation, Animation } from '@ionic/react';
 import { IonCol, IonContent, IonGrid, IonHeader, IonPage, IonRow, IonTitle, IonToolbar } from '@ionic/react';
 import Square from '../../components/trial/Square';
-import './DynamicImage.css';
 
 const DynamicImage: React.FC = () => {
   return (
@@ -12,8 +11,8 @@ const DynamicImage: React.FC = () => {
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
-        <IonGrid>
-          <IonRow><IonCol><Square /></IonCol></IonRow>
+        <IonGrid className="height100">
+          <IonRow className="height25"><IonCol><Square /></IonCol></IonRow>
         </IonGrid>
       </IonContent>
     </IonPage>

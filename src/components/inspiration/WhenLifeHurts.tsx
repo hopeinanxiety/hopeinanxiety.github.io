@@ -6,8 +6,8 @@ interface ContainerProps { }
 const WhenLifeHurts: React.FC<ContainerProps> = () => {
   return (
     <div className="container">
-      <IonGrid>
-        <IonRow>
+      <IonGrid className="height100">
+        <IonRow className="height25">
           <IonCol><IonImg src="\assets\images\when_life_hurts\answering.png" /></IonCol>
           <IonCol><IonImg src="\assets\images\when_life_hurts\christ.png" /></IonCol>
           <IonCol><IonImg src="\assets\images\when_life_hurts\dependence.png" /></IonCol>

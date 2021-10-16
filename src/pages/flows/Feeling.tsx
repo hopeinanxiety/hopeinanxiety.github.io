@@ -3,7 +3,6 @@ import WelcomeBanner from '../../components/home/WelcomeBanner';
 import InspirationLink from '../../components/inspiration/InspirationLink';
 import InformationLink from '../../components/information/InformationLink';
 import InterventionLink from '../../components/intervention/InterventionLink';
-import './Feeling.css';
 
 const Feeling: React.FC = () => {
   return (
@@ -14,11 +13,11 @@ const Feeling: React.FC = () => {
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
-        <IonGrid>
-          <IonRow><IonCol><WelcomeBanner /></IonCol></IonRow>
-          <IonRow><IonCol><InspirationLink /></IonCol></IonRow>
-          <IonRow><IonCol><InformationLink /></IonCol></IonRow>
-          <IonRow><IonCol><InterventionLink /></IonCol></IonRow>
+        <IonGrid className="height100">
+          <IonRow className="height25"><IonCol><WelcomeBanner /></IonCol></IonRow>
+          <IonRow className="height25"><IonCol><InspirationLink /></IonCol></IonRow>
+          <IonRow className="height25"><IonCol><InformationLink /></IonCol></IonRow>
+          <IonRow className="height25"><IonCol><InterventionLink /></IonCol></IonRow>
         </IonGrid>
       </IonContent>
     </IonPage>
