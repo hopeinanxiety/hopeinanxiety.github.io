@@ -244,6 +244,22 @@ http://ionicframework.com/docs/theming/ */
   color:yellow;
 }
 
+.height33 {
+  height: 33%;
+}
+
+.height50 {
+  height: 33%;
+}
+
+.height66 {
+  height: 33%;
+}
+
+.height75 {
+  height: 75%;
+}
+
 .height100 {
   height: 100%;
 }

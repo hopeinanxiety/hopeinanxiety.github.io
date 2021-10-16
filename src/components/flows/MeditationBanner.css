@@ -1,0 +1,39 @@
+.container {
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.containerYellow {
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  color: yellow;
+}
+
+.containerYellow strong {
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.containerYellow p {
+  font-size: 32px;
+  line-height: 36px;
+  color: yellow;
+  margin: 0;
+}
+
+.container a {
+  text-decoration: none;
+}
