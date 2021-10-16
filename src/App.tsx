@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Intervention from './pages/Intervention';
 import Information from './pages/Information';
 import Inspiration from './pages/Inspiration';
+import DynamicImage from './pages/DynamicImage';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -41,6 +42,9 @@ const App: React.FC = () => (
         <Route exact path="/hope">
           <Inspiration />
         </Route>
+        <Route exact path="/DynamicImage">
+          <DynamicImage />
+        </Route>           
         <Route exact path="/">
           <Redirect to="/home" />
         </Route>
