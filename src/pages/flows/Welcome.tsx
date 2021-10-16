@@ -1,9 +1,6 @@
 import { IonCol, IonContent, IonGrid, IonHeader, IonPage, IonRow, IonTitle, IonToolbar } from '@ionic/react';
 import WelcomeBanner from '../../components/home/WelcomeBanner';
-import InspirationLink from '../../components/inspiration/InspirationLink';
-import InformationLink from '../../components/information/InformationLink';
-import InterventionLink from '../../components/intervention/InterventionLink';
-import './Welcome.css';
+import WelcomeQuote from '../../components/flows/WelcomeQuote';
 
 const Welcome: React.FC = () => {
   return (
@@ -13,12 +10,12 @@ const Welcome: React.FC = () => {
           <IonTitle>Welcome</IonTitle>
         </IonToolbar>
       </IonHeader>
-      <IonContent fullscreen>
-        <IonGrid>
-          <IonRow><IonCol><WelcomeBanner /></IonCol></IonRow>
-          <IonRow><IonCol><InspirationLink /></IonCol></IonRow>
-          <IonRow><IonCol><InformationLink /></IonCol></IonRow>
-          <IonRow><IonCol><InterventionLink /></IonCol></IonRow>
+      <IonContent className="background" fullscreen>
+        <IonGrid className="height100">
+          <IonRow className="height25yellow"><IonCol><WelcomeBanner /></IonCol></IonRow>
+          <IonRow className="height25"><IonCol></IonCol></IonRow>
+          <IonRow className="height25"><IonCol></IonCol></IonRow>
+          <IonRow className="height25"><IonCol><WelcomeQuote /></IonCol></IonRow>
         </IonGrid>
       </IonContent>
     </IonPage>

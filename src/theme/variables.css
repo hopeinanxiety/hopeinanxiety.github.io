@@ -234,3 +234,26 @@ http://ionicframework.com/docs/theming/ */
     --ion-card-background: #1e1e1e;
   }
 }
+
+.height25 {
+  height: 25%;
+}
+
+.height25yellow {
+  height: 25%;
+  color:yellow;
+}
+
+.height100 {
+  height: 100%;
+}
+
+.background {
+  --background: url("background.jpg") 0 0/100% 100% no-repeat;
+  background-size: cover;
+}
+
+.blur-background {
+  --background: url("blur-background.png") 0 0/100% 100% no-repeat;
+  background-size: cover;
+}

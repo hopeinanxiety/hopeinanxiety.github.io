@@ -4,8 +4,9 @@ interface ContainerProps { }
 
 const WelcomeBanner: React.FC<ContainerProps> = () => {
   return (
-    <div className="container">
-      <strong>WelcomeBanner</strong>
+    <div className="containerYellow">
+      <strong>Hope</strong>
+      <p>in anxiety</p>
     </div>
   );
 };

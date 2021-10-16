@@ -3,7 +3,6 @@ import HopefulInfographic from '../../components/intervention/HopefulInfographic
 import BreatheExercise from '../../components/intervention/BreatheExercise';
 import CallFriends from '../../components/intervention/CallFriends';
 import InterventionLink from '../../components/intervention/InterventionLink';
-import './Intervention.css';
 
 const Intervention: React.FC = () => {
   return (
@@ -14,11 +13,11 @@ const Intervention: React.FC = () => {
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
-        <IonGrid>
-          <IonRow><IonCol><HopefulInfographic /></IonCol></IonRow>
-          <IonRow><IonCol><BreatheExercise /></IonCol></IonRow>
-          <IonRow><IonCol><CallFriends /></IonCol></IonRow>
-          <IonRow><IonCol><InterventionLink /></IonCol></IonRow>
+        <IonGrid className="height100">
+          <IonRow className="height25"><IonCol><HopefulInfographic /></IonCol></IonRow>
+          <IonRow className="height25"><IonCol><BreatheExercise /></IonCol></IonRow>
+          <IonRow className="height25"><IonCol><CallFriends /></IonCol></IonRow>
+          <IonRow className="height25"><IonCol><InterventionLink /></IonCol></IonRow>
         </IonGrid>
       </IonContent>
     </IonPage>

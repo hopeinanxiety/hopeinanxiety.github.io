@@ -1,6 +1,5 @@
 import { IonCol, IonContent, IonGrid, IonHeader, IonPage, IonRow, IonTitle, IonToolbar } from '@ionic/react';
 import InterventionLink from '../../components/intervention/InterventionLink';
-import './Information.css';
 
 const Information: React.FC = () => {
   return (
@@ -11,11 +10,11 @@ const Information: React.FC = () => {
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
-        <IonGrid>
-          <IonRow><IonCol></IonCol></IonRow>
-          <IonRow><IonCol></IonCol></IonRow>
-          <IonRow><IonCol></IonCol></IonRow>
-          <IonRow><IonCol><InterventionLink /></IonCol></IonRow>
+        <IonGrid className="height100">
+          <IonRow className="height25"><IonCol></IonCol></IonRow>
+          <IonRow className="height25"><IonCol></IonCol></IonRow>
+          <IonRow className="height25"><IonCol></IonCol></IonRow>
+          <IonRow className="height25"><IonCol><InterventionLink /></IonCol></IonRow>
         </IonGrid>
       </IonContent>
     </IonPage>

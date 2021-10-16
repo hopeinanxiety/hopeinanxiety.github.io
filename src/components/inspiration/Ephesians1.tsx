@@ -6,8 +6,8 @@ interface ContainerProps { }
 const Ephesians1: React.FC<ContainerProps> = () => {
   return (
     <div className="container">
-      <IonGrid>
-        <IonRow>
+      <IonGrid className="height100">
+        <IonRow className="height25">
           <IonCol><IonImg src="\assets\images\ephesians_1\adopted.png" /></IonCol>
           <IonCol><IonImg src="\assets\images\ephesians_1\called.png" /></IonCol>
           <IonCol><IonImg src="\assets\images\ephesians_1\chosen.png" /></IonCol>
